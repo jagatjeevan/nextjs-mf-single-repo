@@ -1,0 +1,2 @@
+# Microfrontend with NextJs and Module Federation
+This repo consists of few small nextjs independent deployable app. This is a monorepo with multiple apps. With Module Federation from webpack 5, the build is extracted to separate modules.
