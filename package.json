@@ -1,0 +1,22 @@
+{
+  "name": "nextjs-mf-single-repo",
+  "version": "1.0.0",
+  "description": "NextJs Single Repo Micro-frontend architecture",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "concurrently \"cd app1; npm i\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagatjeevan/nextjs-mf-single-repo.git"
+  },
+  "author": "Jagat Jeevan Sahoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jagatjeevan/nextjs-mf-single-repo/issues"
+  },
+  "homepage": "https://github.com/jagatjeevan/nextjs-mf-single-repo#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
