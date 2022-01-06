@@ -4,6 +4,9 @@
   "description": "NextJs Single Repo Micro-frontend architecture",
   "main": "index.js",
   "scripts": {
+    "start": "concurrently \"cd app1; npm run dev \"",
+    "build": "concurrently \"cd app1; npm run build \"",
+    "serve": "concurrently \"cd app1; npm run start \"",
     "postinstall": "concurrently \"cd app1; npm i\""
   },
   "repository": {
